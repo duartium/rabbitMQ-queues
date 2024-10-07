@@ -1,0 +1,46 @@
+""
+# .NET Core general files
+bin/
+obj/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# Visual Studio specific
+.vscode/
+.vs/
+.launchSettings.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Rider specific
+.idea/
+*.sln.iml
+
+# NuGet Packages
+*.nupkg
+packages/
+# Uncomment if using NuGet.exe
+# *.nuget
+# NuGet v3's project.json files produces more ignorable files
+project.lock.json
+project.fragment.lock.json
+
+# Dotnet tool
+**/global.json
+
+# Azure Pipeline generated files
+*.tfvars
+*.tfstate*
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+""
